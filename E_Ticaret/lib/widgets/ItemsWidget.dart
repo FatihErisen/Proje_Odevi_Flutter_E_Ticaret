@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../database/FakeDatabase.dart';
-import '../pages/ItemPage.dart'; // Import the FakeDatabase
+import '../pages/ItemPage.dart'; 
 
 class ItemsWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    List<int> productIds = [1, 10, 12, 18]; // Product IDs to show
+    List<int> productIds = [1, 10, 12, 18]; 
 
     return GridView.count(
       childAspectRatio: 0.68,
